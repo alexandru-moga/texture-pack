@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "A Resourcepack port created by Lanixius aka AquaticShelter"
+  }
+=======
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "A Resourcepack port created by Lanixius aka AquaticShelter"
+  }
+>>>>>>> c4b5a96 (Initial commit with assets and configuration files)
+}

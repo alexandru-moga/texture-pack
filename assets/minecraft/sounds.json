@@ -1,0 +1,792 @@
+{
+"entity.player.breath": { "sounds": [
+    { "name": "AmbientSounds5/rizz",  "weight": 40, "stream": true, "volume": 1.5, "attenuation_distance": 32 }
+], "replace": "true" },
+	
+"block.grass.step": { "sounds": [
+
+  {"name": "step/grass1", "weight": 20},
+  {"name": "step/grass2", "weight": 20},
+  {"name": "step/grass3", "weight": 20},
+  {"name": "step/grass4", "weight": 20},
+  {"name": "step/grass5", "weight": 20},
+  {"name": "step/grass6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/crow/crow5", "weight": 10, "volume": 0.25},
+  
+  { "name": "AmbientSounds5/wind/wind-in-leaves",  "weight": 10, "stream": true, "volume": 0.55, "attenuation_distance": 32 },	
+
+  { "name": "AmbientSounds5/animals/birds/bird-ambience1", "weight": 1, "volume": 0.5},
+  { "name": "AmbientSounds5/animals/birds/bird-ambience2", "weight": 1, "volume": 0.5},
+  {"name": "step/grass1", "weight": 20},
+  {"name": "step/grass2", "weight": 20},
+  {"name": "step/grass3", "weight": 20},
+  {"name": "step/grass4", "weight": 20},
+  {"name": "step/grass5", "weight": 20},
+  {"name": "step/grass6", "weight": 20},
+  { "name": "AmbientSounds5/animals/birds/bird-ambience3", "weight": 1, "volume": 0.5},
+  { "name": "AmbientSounds5/animals/birds/bird-ambience4", "weight": 1, "volume": 0.5},
+  {"name": "step/grass1", "weight": 20},
+  {"name": "step/grass2", "weight": 20},
+  {"name": "step/grass3", "weight": 20},
+  {"name": "step/grass4", "weight": 20},
+  {"name": "step/grass5", "weight": 20},
+  {"name": "step/grass6", "weight": 20},
+  { "name": "AmbientSounds5/animals/birds/bird-ambience5", "weight": 1, "volume": 0.5},
+  
+  { "name": "AmbientSounds5/animals/owl/owl6", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/wind/light-wind",  "weight": 40, "stream": true, "volume": 1, "attenuation_distance": 32 },	
+  
+  {"name": "step/grass1", "weight": 30},
+  {"name": "step/grass2", "weight": 30},
+  {"name": "step/grass3", "weight": 30},
+  {"name": "step/grass4", "weight": 30},
+  {"name": "step/grass5", "weight": 30},
+  {"name": "step/grass6", "weight": 30},
+  
+  { "name": "AmbientSounds5/animals/crow/crow4", "weight": 10, "volume": 0.32},
+  
+  { "name": "AmbientSounds5/animals/bird/bird-ambience6", "weight": 1, "volume": 0.5},
+  { "name": "AmbientSounds5/animals/bird/bird-ambience7", "weight": 10, "volume": 0.25},
+  {"name": "step/grass1", "weight": 20},
+  {"name": "step/grass2", "weight": 20},
+  {"name": "step/grass3", "weight": 20},
+  {"name": "step/grass4", "weight": 20},
+  {"name": "step/grass5", "weight": 20},
+  {"name": "step/grass6", "weight": 20},
+  { "name": "AmbientSounds5/animals/bird/bird-ambience8", "weight": 1, "volume": 0.5},
+  { "name": "AmbientSounds5/animals/bird/bird-ambience9", "weight": 1, "volume": 1},
+  
+  { "name": "AmbientSounds5/animals/crow/crow3", "weight": 10, "volume": 0.3},
+  
+  { "name": "AmbientSounds5/wind/light-wind",  "weight": 11, "stream": true, "volume": 1, "attenuation_distance": 32 },
+  
+  { "name": "AmbientSounds5/animals/owl/owl7", "weight": 10, "volume": 0.35},
+  
+  {"name": "step/grass1", "weight": 20},
+  {"name": "step/grass2", "weight": 20},
+  {"name": "step/grass3", "weight": 20},
+  {"name": "step/grass4", "weight": 20},
+  {"name": "step/grass5", "weight": 20},
+  {"name": "step/grass6", "weight": 20},
+  { "name": "AmbientSounds5/animals/bird/bird-ambience10", "weight": 10, "volume": 1},
+  { "name": "AmbientSounds5/animals/cricket/cricket2", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 10, "volume": 0.3},
+  
+  { "name": "AmbientSounds5/animals/owl/owl8", "weight": 10, "volume": 0.35},
+  
+  {"name": "step/grass1", "weight": 20},
+  {"name": "step/grass2", "weight": 20},
+  {"name": "step/grass3", "weight": 20},
+  {"name": "step/grass4", "weight": 20},
+  {"name": "step/grass5", "weight": 20},
+  {"name": "step/grass6", "weight": 20},
+  
+  { "name": "AmbientSounds5/wind/wind",  "weight": 5, "stream": true, "volume": 0.8, "attenuation_distance": 32 },	
+  
+  { "name": "AmbientSounds5/animals/crow/crow2", "weight": 10, "volume": 0.25},
+  
+  { "name": "AmbientSounds5/animals/bird/bird-ambience11", "weight": 1, "volume": 1},
+  { "name": "AmbientSounds5/animals/cricket/cricket1", "weight": 10, "volume": 0.25},
+  
+  { "name": "AmbientSounds5/animals/owl/owl9", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/cricket/cricket3", "weight": 10, "volume": 0.25}
+
+], "replace": false, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.gravel.step": { "sounds": [
+
+  { "name": "AmbientSounds5/animals/cricket/cricket", "weight": 10, "volume": 0.25},
+
+  {"name": "step/gravel1", "weight": 20},
+  {"name": "step/gravel2", "weight": 20},
+  {"name": "step/gravel3", "weight": 20},
+  {"name": "step/gravel4", "weight": 20},
+  {"name": "step/gravel5", "weight": 20},
+  {"name": "step/gravel6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/birds/bird-ambience-spooky", "weight": 10, "volume": 0.55},
+	
+  { "name": "AmbientSounds5/animals/birds/bird-ambience-spooky1", "weight": 10, "volume": 0.8},
+	
+  { "name": "AmbientSounds5/animals/birds/bird-ambience-spooky2", "weight": 10, "volume": 0.75},
+  
+  {"name": "step/gravel1", "weight": 20},
+  {"name": "step/gravel2", "weight": 20},
+  {"name": "step/gravel3", "weight": 20},
+  {"name": "step/gravel4", "weight": 20},
+  {"name": "step/gravel5", "weight": 20},
+  {"name": "step/gravel6", "weight": 20},
+  
+  { "name": "AmbientSounds5/wind/wind-in-leaves",  "weight": 20, "stream": true, "volume": 1.65, "attenuation_distance": 32 },	
+  
+  { "name": "AmbientSounds5/animals/crow/crow8", "weight": 10, "volume": 0.25},
+  
+  { "name": "AmbientSounds5/animals/owl/owl3", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/owl/owl4", "weight": 10, "volume": 0.35},
+ 
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 1, "volume": 0.5},
+  { "name": "AmbientSounds5/animals/crow/crow7", "weight": 1, "volume": 0.5},
+  {"name": "step/gravel1", "weight": 20},
+  {"name": "step/gravel2", "weight": 20},
+  {"name": "step/gravel3", "weight": 20},
+  {"name": "step/gravel4", "weight": 20},
+  {"name": "step/gravel5", "weight": 20},
+  {"name": "step/gravel6", "weight": 20},
+  { "name": "AmbientSounds5/animals/crow/crow3", "weight": 1, "volume": 0.5},
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 1, "volume": 0.5},
+  
+  { "name": "AmbientSounds5/wind/light-wind",  "weight": 50, "stream": true, "volume": 1, "attenuation_distance": 32 },	
+  
+  { "name": "AmbientSounds5/animals/owl/owl5", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/wolf/wolf1", "weight": 10, "volume": 0.35},
+  
+  {"name": "step/gravel1", "weight": 20},
+  {"name": "step/gravel2", "weight": 20},
+  {"name": "step/gravel3", "weight": 20},
+  {"name": "step/gravel4", "weight": 20},
+  {"name": "step/gravel5", "weight": 20},
+  {"name": "step/gravel6", "weight": 20},
+  { "name": "AmbientSounds5/animals/crow/crow5", "weight": 1, "volume": 0.5},
+  
+  { "name": "AmbientSounds5/wind/wind",  "weight": 30, "stream": true, "volume": 1.1, "attenuation_distance": 32 },	
+  
+  {"name": "step/gravel1", "weight": 30},
+  {"name": "step/gravel2", "weight": 30},
+  {"name": "step/gravel3", "weight": 30},
+  {"name": "step/gravel4", "weight": 30},
+  {"name": "step/gravel5", "weight": 30},
+  {"name": "step/gravel6", "weight": 30},
+  
+  { "name": "AmbientSounds5/animals/owl/owl2", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/crow/crow4", "weight": 10, "volume": 0.32},
+  {"name": "step/gravel1", "weight": 20},
+  {"name": "step/gravel2", "weight": 20},
+  {"name": "step/gravel3", "weight": 20},
+  {"name": "step/gravel4", "weight": 20},
+  {"name": "step/gravel5", "weight": 20},
+  {"name": "step/gravel6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/wolf/wolf2", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/crow/crow3", "weight": 10, "volume": 0.3},
+  
+  { "name": "AmbientSounds5/wind/light-wind",  "weight": 50, "stream": true, "volume": 2, "attenuation_distance": 32 },	
+  
+  {"name": "step/gravel1", "weight": 20},
+  {"name": "step/gravel2", "weight": 20},
+  {"name": "step/gravel3", "weight": 20},
+  {"name": "step/gravel4", "weight": 20},
+  {"name": "step/gravel5", "weight": 20},
+  {"name": "step/gravel6", "weight": 20},
+  { "name": "AmbientSounds5/animals/crow/crow5", "weight": 10, "volume": 1},
+  { "name": "AmbientSounds5/animals/crow/crow6", "weight": 10, "volume": 1.35},
+  
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 10, "volume": 0.3},
+  
+  { "name": "AmbientSounds5/animals/owl/owl1", "weight": 10, "volume": 0.35},
+  
+  {"name": "step/gravel1", "weight": 20},
+  {"name": "step/gravel2", "weight": 20},
+  {"name": "step/gravel3", "weight": 20},
+  {"name": "step/gravel4", "weight": 20},
+  {"name": "step/gravel5", "weight": 20},
+  {"name": "step/gravel6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/wolf/wolf3", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/birds/bird-ambience-spooky", "weight": 10, "volume": 0.55},
+	
+  { "name": "AmbientSounds5/animals/birds/bird-ambience-spooky1", "weight": 10, "volume": 0.8},
+	
+  { "name": "AmbientSounds5/animals/birds/bird-ambience-spooky2", "weight": 10, "volume": 0.75},
+  
+  { "name": "AmbientSounds5/wind/wind",  "weight": 50, "stream": true, "volume": 0.8, "attenuation_distance": 32 },	
+  
+  {"name": "step/gravel1", "weight": 20},
+  {"name": "step/gravel2", "weight": 20},
+  {"name": "step/gravel3", "weight": 20},
+  {"name": "step/gravel4", "weight": 20},
+  {"name": "step/gravel5", "weight": 20},
+  {"name": "step/gravel6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/crow/crow2", "weight": 10, "volume": 0.25},
+  
+  { "name": "AmbientSounds5/animals/cicadas/cicadas-night", "weight": 10, "volume": 1.25},
+  
+  { "name": "AmbientSounds5/animals/wolf/wolf4", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/cricket/cricket3", "weight": 10, "volume": 0.45},
+  
+  { "name": "AmbientSounds5/animals/cricket/cricket2", "weight": 10, "volume": 0.25}
+
+], "replace": false, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.sand.step": { "sounds": [
+
+  {"name": "step/sand1", "weight": 20},
+  {"name": "step/sand2", "weight": 20},
+  {"name": "step/sand3", "weight": 20},
+  {"name": "step/sand4", "weight": 20},
+  {"name": "step/sand5", "weight": 20},
+  {"name": "step/sand6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/crow/crow5", "weight": 10, "volume": 0.25},
+  
+  { "name": "AmbientSounds5/wind/mesa",  "weight": 10, "stream": true, "volume": 1.55, "attenuation_distance": 32 },	
+
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 1, "volume": 0.5},
+  
+  { "name": "AmbientSounds5/animals/crow/crow2", "weight": 1, "volume": 0.5},
+  {"name": "step/sand1", "weight": 20},
+  {"name": "step/sand2", "weight": 20},
+  {"name": "step/sand3", "weight": 20},
+  {"name": "step/sand4", "weight": 20},
+  {"name": "step/sand5", "weight": 20},
+  {"name": "step/sand6", "weight": 20},
+  { "name": "AmbientSounds5/animals/crow/crow3", "weight": 1, "volume": 0.5},
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 1, "volume": 0.5},
+  {"name": "step/sand1", "weight": 20},
+  {"name": "step/sand2", "weight": 20},
+  {"name": "step/sand3", "weight": 20},
+  {"name": "step/sand4", "weight": 20},
+  {"name": "step/sand5", "weight": 20},
+  {"name": "step/sand6", "weight": 20},
+  { "name": "AmbientSounds5/animals/crow/crow5", "weight": 1, "volume": 0.5},
+  
+  { "name": "AmbientSounds5/wind/light-wind",  "weight": 50, "stream": true, "volume": 1.2, "attenuation_distance": 32 },	
+  
+  {"name": "step/sand1", "weight": 30},
+  {"name": "step/sand2", "weight": 30},
+  {"name": "step/sand3", "weight": 30},
+  {"name": "step/sand4", "weight": 30},
+  {"name": "step/sand5", "weight": 30},
+  {"name": "step/sand6", "weight": 30},
+  
+  { "name": "AmbientSounds5/animals/crow/crow4", "weight": 10, "volume": 0.32},
+  {"name": "step/sand1", "weight": 20},
+  {"name": "step/sand2", "weight": 20},
+  {"name": "step/sand3", "weight": 20},
+  {"name": "step/sand4", "weight": 20},
+  {"name": "step/sand5", "weight": 20},
+  {"name": "step/sand6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/crow/crow3", "weight": 10, "volume": 0.3},
+  
+  { "name": "AmbientSounds5/wind/light-wind",  "weight": 50, "stream": true, "volume": 2, "attenuation_distance": 32 },	
+  
+  {"name": "step/sand1", "weight": 20},
+  {"name": "step/sand2", "weight": 20},
+  {"name": "step/sand3", "weight": 20},
+  {"name": "step/sand4", "weight": 20},
+  {"name": "step/sand5", "weight": 20},
+  {"name": "step/sand6", "weight": 20},
+  { "name": "AmbientSounds5/animals/cicadas/cicadas-desert", "weight": 10, "volume": 1},
+  { "name": "AmbientSounds5/animals/cicadas/cicadas-desert1", "weight": 10, "volume": 1.35},
+  
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 10, "volume": 0.3},
+  
+  {"name": "step/sand1", "weight": 20},
+  {"name": "step/sand2", "weight": 20},
+  {"name": "step/sand3", "weight": 20},
+  {"name": "step/sand4", "weight": 20},
+  {"name": "step/sand5", "weight": 20},
+  {"name": "step/sand6", "weight": 20},
+  
+  { "name": "AmbientSounds5/wind/wind",  "weight": 50, "stream": true, "volume": 0.8, "attenuation_distance": 32 },	
+  
+  { "name": "AmbientSounds5/animals/crow/crow2", "weight": 10, "volume": 0.25},
+  
+  { "name": "AmbientSounds5/animals/cicadas/cicadas-desert2", "weight": 30, "volume": 1},
+  
+  { "name": "AmbientSounds5/animals/cicadas/cicadas-night", "weight": 10, "volume": 1.25},
+  {"name": "step/sand1", "weight": 20},
+  {"name": "step/sand2", "weight": 20},
+  {"name": "step/sand3", "weight": 20},
+  {"name": "step/sand4", "weight": 20},
+  {"name": "step/sand5", "weight": 20},
+  {"name": "step/sand6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/cricket/cricket3", "weight": 10, "volume": 0.25}
+
+], "replace": false, "subtitle": "subtitles.block.generic.footsteps" },
+
+"entity.sniffer.idle": { "sounds": [
+    { "name": "AmbientSounds5/animals/bird/bird-ambience-huge1",  "weight": 1, "stream": true, "volume": 0.5, "attenuation_distance": 32 },
+	
+    { "name": "AmbientSounds5/animals/bird/bird-ambience-huge2",  "weight": 1, "stream": true, "volume": 0.4, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/wind/light-wind",  "weight": 1, "stream": true, "volume": 0.8, "attenuation_distance": 32 },	
+	
+    { "name": "AmbientSounds5/animals/bird/bird-ambience-huge3",  "weight": 1, "stream": true, "volume": 0.6, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.dolphin.ambient": { "sounds": [
+    { "name": "AmbientSounds5/animals/seagull/seagull-long",  "weight": 10, "stream": true, "volume": 0.25, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/water/ocean",  "weight": 20, "stream": true, "volume": 2.2, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/water/beach",  "weight": 20, "stream": true, "volume": 0.6, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/wind/wind", "weight": 55, "stream": true, "volume": 4, "pitch": 0.9, "attenuation_distance": 32},
+	
+	{ "name": "AmbientSounds5/water/beach2",  "weight": 20, "stream": true, "volume": 0.5, "attenuation_distance": 32 }	
+], "replace": "false" },
+
+"entity.parrot.ambient": { "sounds": [
+    { "name": "mob/parrot/idle1", "weight": 10 },
+    { "name": "mob/parrot/idle2", "weight": 10 },
+    { "name": "mob/parrot/idle3", "weight": 10 },
+    { "name": "mob/parrot/idle4", "weight": 10 },
+    { "name": "mob/parrot/idle5", "weight": 10 },
+    { "name": "mob/parrot/idle6", "weight": 10 },
+
+    { "name": "AmbientSounds5/animals/bird/bird-ambience-jungle",  "weight": 1, "stream": true, "volume": 0.8, "attenuation_distance": 32 },	
+    { "name": "AmbientSounds5/animals/bird/bird-ambience-jungle2",  "weight": 1, "stream": true, "volume": 0.4, "attenuation_distance": 32 }
+
+], "replace": "true" },
+
+"entity.parrot.fly": { "sounds": [
+    { "name": "mob/parrot/fly1", "weight": 10 },
+    { "name": "mob/parrot/fly2", "weight": 10 },
+    { "name": "mob/parrot/fly3", "weight": 10 },
+    { "name": "mob/parrot/fly4", "weight": 10 },
+    { "name": "mob/parrot/fly5", "weight": 10 },
+    { "name": "mob/parrot/fly6", "weight": 10 },
+	{ "name": "mob/parrot/fly7", "weight": 10 },
+    { "name": "mob/parrot/fly8", "weight": 10 },
+
+    { "name": "AmbientSounds5/animals/bird/bird-ambience-jungle",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },	
+    { "name": "AmbientSounds5/animals/bird/bird-ambience-jungle2",  "weight": 10, "stream": true, "volume": 2, "attenuation_distance": 32 }
+
+], "replace": "true" },
+
+"entity.bee.loop": { "sounds": [
+    { "name": "mob/bee/loop1", "weight": 10 },
+    { "name": "mob/bee/loop2", "weight": 10 },
+    { "name": "mob/bee/loop3", "weight": 10 },
+    { "name": "mob/bee/loop4", "weight": 10 },
+	
+    { "name": "AmbientSounds5/animals/bird/bird-ambience-warm",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/cicadas/cicadas",  "weight": 1, "stream": true, "volume": 0.7, "attenuation_distance": 32 },
+	
+    { "name": "AmbientSounds5/animals/bird/bird-ambience-warm2",  "weight": 10, "stream": true, "volume": 1.4, "attenuation_distance": 32 }
+
+], "replace": "false" },
+
+"entity.cod.ambient": { "sounds": [
+    { "name": "AmbientSounds5/animals/seagull/seagull-long",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+
+    { "name": "AmbientSounds5/wind/light-wind", "weight": 55, "stream": true, "volume": 4, "pitch": 1.3, "attenuation_distance": 32}, 	
+	
+	{ "name": "AmbientSounds5/water/ocean",  "weight": 20, "stream": true, "volume": 1.2, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/water/beach",  "weight": 10, "stream": true, "volume": 0.9, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/water/beach2",  "weight": 20, "stream": true, "volume": 0.8, "attenuation_distance": 32 }	
+	
+], "replace": "false" },
+
+"entity.panda.ambient": { "sounds": [
+    { "name": "AmbientSounds5/animals/cricket/cricket-jungle",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 },
+
+    { "name": "AmbientSounds5/wind/light-wind", "weight": 55, "stream": true, "volume": 4, "pitch": 1.3, "attenuation_distance": 32}, 	
+	
+	{ "name": "AmbientSounds5/animals/cricket/cricket-jungle-night",  "weight": 10, "stream": true, "volume": 1, "attenuation_distance": 32 }
+
+], "replace": "false" },
+
+"entity.salmon.ambient": { "sounds": [
+    { "name": "AmbientSounds5/animals/seagull/seagull-long",  "weight": 1, "stream": true, "volume": 1, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/water/ocean",  "weight": 10, "stream": true, "volume": 0.9, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/wind/wind", "weight": 15, "stream": true, "volume": 4, "pitch": 1.1, "attenuation_distance": 32},
+	
+	{ "name": "AmbientSounds5/water/beach",  "weight": 10, "stream": true, "volume": 0.55, "attenuation_distance": 32 }
+	
+], "replace": "false" },
+
+"block.water.ambient": { "sounds": [
+
+    { "name": "AmbientSounds5/water/ocean", "weight": 15, "stream": true, "volume": 4, "pitch": 1.4, "attenuation_distance": 32},
+	
+	{ "name": "AmbientSounds5/water/beach",  "weight": 20, "stream": true, "volume": 0.65, "attenuation_distance": 32 }
+	
+], "replace": "true" },
+
+"entity.tropical_fish.ambient": { "sounds": [
+    { "name": "AmbientSounds5/animals/seagull/seagull-long",  "weight": 5, "stream": true, "volume": 1, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/water/ocean",  "weight": 20, "stream": true, "volume": 3.3, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull1", "weight": 11, "volume": 1},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull2", "weight": 12, "volume": 1},
+	
+	{ "name": "AmbientSounds5/wind/wind", "weight": 25, "stream": true, "volume": 4, "pitch": 1.2, "attenuation_distance": 32},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull3", "weight": 9, "volume": 1},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull4", "weight": 8, "volume": 1},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull5", "weight": 7, "volume": 1},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull6", "weight": 15, "volume": 1},
+	
+	{ "name": "AmbientSounds5/water/beach",  "weight": 10, "stream": true, "volume": 0.8, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/water/beach2",  "weight": 20, "stream": true, "volume": 0.6, "attenuation_distance": 32 }	
+	
+], "replace": "true" },
+
+"entity.frog.ambient": { "sounds": [
+    { "name": "AmbientSounds5/animals/frog/frog1",  "weight": 10, "stream": true, "volume": 0.25, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/animals/frog/frog2",  "weight": 10, "stream": true, "volume": 0.25, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/animals/frog/frog-cave1",  "weight": 10, "stream": true, "volume": 0.25, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/animals/crow/crow8",  "weight": 10, "stream": true, "volume": 0.25, "attenuation_distance": 32 },	
+
+    { "name": "AmbientSounds5/animals/cricket/cricket-swamp",  "weight": 10, "stream": true, "volume": 0.6, "attenuation_distance": 32 },
+
+    { "name": "AmbientSounds5/animals/cricket/cricket-warm-night2",  "weight": 10, "stream": true, "volume": 0.25, "attenuation_distance": 32 },	
+    { "name": "AmbientSounds5/animals/cricket/cricket-warm-night",  "weight": 10, "stream": true, "volume": 0.25, "attenuation_distance": 32 },		
+	
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky", "weight": 1, "volume": 0.5},
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky1", "weight": 1, "volume": 0.6},
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky2", "weight": 1, "volume": 0.7}
+], "replace": "false" },
+
+"entity.llama.ambient": { "sounds": [
+	{ "name": "AmbientSounds5/animals/crow/crow8",  "weight": 10, "stream": true, "volume": 0.7, "attenuation_distance": 32 },	
+
+    { "name": "AmbientSounds5/wind/light-wind",  "weight": 40, "stream": true, "volume": 1, "attenuation_distance": 32 },	
+
+    { "name": "AmbientSounds5/wind/wind",  "weight": 10, "stream": true, "volume": 0.7, "attenuation_distance": 32 },		
+	
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky", "weight": 1, "volume": 0.5},
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky1", "weight": 1, "volume": 0.6},
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky2", "weight": 1, "volume": 0.25}
+], "replace": "false" },
+
+"entity.wolf.ambient": { "sounds": [
+    { "name": "AmbientSounds5/animals/wolf/wolf1", "weight": 1, "volume": 0.5},
+	
+	 { "name": "AmbientSounds5/animals/wolf/wolf2", "weight": 1, "volume": 0.5},
+	 
+	  { "name": "AmbientSounds5/animals/wolf/wolf3", "weight": 1, "volume": 0.5},
+	  
+	   { "name": "AmbientSounds5/animals/wolf/wolf4", "weight": 1, "volume": 0.5},
+	   
+	    { "name": "AmbientSounds5/animals/wolf/wolf5", "weight": 1, "volume": 0.5},
+		
+		 { "name": "AmbientSounds5/animals/wolf/wolf6", "weight": 1, "volume": 0.5},
+		  
+		 { "name": "AmbientSounds5/animals/wolf/wolf7", "weight": 1, "volume": 0.5},  
+		 
+		  { "name": "AmbientSounds5/animals/wolf/wolf8", "weight": 1, "volume": 0.5},
+		   { "name": "AmbientSounds5/animals/wolf/wolf9", "weight": 1, "volume": 0.5},
+		    { "name": "AmbientSounds5/animals/wolf/wolf10", "weight": 1, "volume": 0.5}
+   
+], "replace": "false" },
+
+"entity.warden.ambient": { "sounds": [
+	{ "name": "AmbientSounds5/animals/special/warden",  "weight": 10, "stream": true, "volume": 0.7, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.warden.heartbeat": { "sounds": [
+	{ "name": "AmbientSounds5/animals/special/warden",  "weight": 10, "stream": true, "volume": 0.5, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"entity.fox.ambient": { "sounds": [
+	{ "name": "AmbientSounds5/animals/crow/crow8",  "weight": 10, "stream": true, "volume": 0.7, "attenuation_distance": 32 },	
+
+    { "name": "AmbientSounds5/wind/light-wind",  "weight": 30, "stream": true, "volume": 1.1, "attenuation_distance": 32 },	
+
+    { "name": "AmbientSounds5/wind/wind",  "weight": 6, "stream": true, "volume": 0.5, "attenuation_distance": 32 },		
+	
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky", "weight": 1, "volume": 0.8},
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky1", "weight": 1, "volume": 0.7},
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky2", "weight": 1, "volume": 0.25}
+], "replace": "false" },
+
+"entity.spider.ambient": { "sounds": [
+	{ "name": "AmbientSounds5/animals/cricket/cricket-night", "weight": 1, "volume": 0.8},
+	
+	{ "name": "AmbientSounds5/animals/cricket/cricket-night2", "weight": 1, "volume": 0.7},
+	{ "name": "AmbientSounds5/animals/cricket/cricket-night3", "weight": 1, "volume": 0.7},
+	
+	{ "name": "AmbientSounds5/animals/cricket/cricket-night4", "weight": 1, "volume": 0.7},
+	{ "name": "AmbientSounds5/animals/cricket/cricket-night5", "weight": 1, "volume": 0.25}
+], "replace": "false" },
+
+"entity.turtle.ambient_land": { "sounds": [
+    { "name": "AmbientSounds5/animals/seagull/seagull-long",  "weight": 15, "stream": true, "volume": 0.25, "attenuation_distance": 32 },	
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull1", "weight": 11, "volume": 0.5},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull2", "weight": 12, "volume": 0.25},
+	
+	{ "name": "AmbientSounds5/wind/light-wind", "weight": 55, "stream": true, "volume": 4, "pitch": 1.3, "attenuation_distance": 32},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull3", "weight": 6, "volume": 0.25},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull4", "weight": 8, "volume": 0.25},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull5", "weight": 7, "volume": 0.27},
+	
+	{ "name": "AmbientSounds5/animals/seagull/seagull6", "weight": 15, "volume": 0.25},
+	
+	{ "name": "AmbientSounds5/water/beach",  "weight": 20, "stream": true, "volume": 1, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/water/beach2",  "weight": 20, "stream": true, "volume": 1, "attenuation_distance": 32 }	
+], "replace": "false" },
+
+"block.snow.step": { "sounds": [
+
+  {"name": "step/snow1", "weight": 20},
+  {"name": "step/snow2", "weight": 20},
+  {"name": "step/snow3", "weight": 20},
+  {"name": "step/snow4", "weight": 20},
+  {"name": "step/snow5", "weight": 20},
+  {"name": "step/snow6", "weight": 20},
+  
+  { "name": "AmbientSounds5/wind/wind-in-leaves",  "weight": 60, "stream": true, "volume": 1.65, "attenuation_distance": 32 },	
+  
+  { "name": "AmbientSounds5/animals/crow/crow8", "weight": 10, "volume": 0.25},
+  
+  { "name": "AmbientSounds5/animals/owl/owl3", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/owl/owl4", "weight": 10, "volume": 0.35},
+ 
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 1, "volume": 0.5},
+  { "name": "AmbientSounds5/animals/crow/crow7", "weight": 1, "volume": 0.5},
+  {"name": "step/snow1", "weight": 20},
+  {"name": "step/snow2", "weight": 20},
+  {"name": "step/snow3", "weight": 20},
+  {"name": "step/snow4", "weight": 20},
+  {"name": "step/snow5", "weight": 20},
+  {"name": "step/snow6", "weight": 20},
+  { "name": "AmbientSounds5/animals/crow/crow3", "weight": 1, "volume": 0.5},
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 1, "volume": 0.5},
+  
+  { "name": "AmbientSounds5/wind/light-wind",  "weight": 50, "stream": true, "volume": 1, "attenuation_distance": 32 },	
+  
+  { "name": "AmbientSounds5/animals/owl/owl5", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/wolf/wolf1", "weight": 10, "volume": 0.35},
+  
+  {"name": "step/snow1", "weight": 20},
+  {"name": "step/snow2", "weight": 20},
+  {"name": "step/snow3", "weight": 20},
+  {"name": "step/snow4", "weight": 20},
+  {"name": "step/snow5", "weight": 20},
+  {"name": "step/snow6", "weight": 20},
+  { "name": "AmbientSounds5/animals/crow/crow5", "weight": 1, "volume": 0.5},
+  
+  { "name": "AmbientSounds5/wind/wind",  "weight": 30, "stream": true, "volume": 1.1, "attenuation_distance": 32 },	
+  
+  {"name": "step/snow1", "weight": 30},
+  {"name": "step/snow2", "weight": 30},
+  {"name": "step/snow3", "weight": 30},
+  {"name": "step/snow4", "weight": 30},
+  {"name": "step/snow5", "weight": 30},
+  {"name": "step/snow6", "weight": 30},
+  
+  { "name": "AmbientSounds5/animals/owl/owl2", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/crow/crow4", "weight": 10, "volume": 0.32},
+  {"name": "step/snow1", "weight": 20},
+  {"name": "step/snow2", "weight": 20},
+  {"name": "step/snow3", "weight": 20},
+  {"name": "step/snow4", "weight": 20},
+  {"name": "step/snow5", "weight": 20},
+  {"name": "step/snow6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/wolf/wolf2", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/crow/crow3", "weight": 10, "volume": 0.3},
+  
+  { "name": "AmbientSounds5/wind/howling-wind",  "weight": 50, "stream": true, "volume": 2, "attenuation_distance": 32 },	
+  
+  {"name": "step/snow1", "weight": 20},
+  {"name": "step/snow2", "weight": 20},
+  {"name": "step/snow3", "weight": 20},
+  {"name": "step/snow4", "weight": 20},
+  {"name": "step/snow5", "weight": 20},
+  {"name": "step/snow6", "weight": 20},
+  { "name": "AmbientSounds5/animals/crow/crow5", "weight": 10, "volume": 1},
+  { "name": "AmbientSounds5/animals/crow/crow6", "weight": 10, "volume": 1.35},
+  
+  { "name": "AmbientSounds5/animals/crow/crow1", "weight": 10, "volume": 0.3},
+  
+  { "name": "AmbientSounds5/animals/owl/owl1", "weight": 10, "volume": 0.35},
+  
+  {"name": "step/snow1", "weight": 20},
+  {"name": "step/snow2", "weight": 20},
+  {"name": "step/snow3", "weight": 20},
+  {"name": "step/snow4", "weight": 20},
+  {"name": "step/snow5", "weight": 20},
+  {"name": "step/snow6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/wolf/wolf3", "weight": 10, "volume": 0.35},
+  
+  	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky", "weight": 10, "volume": 0.55},
+	
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky1", "weight": 10, "volume": 0.8},
+	
+	{ "name": "AmbientSounds5/animals/birds/bird-ambience-spooky2", "weight": 10, "volume": 0.75},
+  
+  { "name": "AmbientSounds5/wind/heavy-wind",  "weight": 50, "stream": true, "volume": 0.8, "attenuation_distance": 32 },	
+  
+   {"name": "step/snow1", "weight": 20},
+  {"name": "step/snow2", "weight": 20},
+  {"name": "step/snow3", "weight": 20},
+  {"name": "step/snow4", "weight": 20},
+  {"name": "step/snow5", "weight": 20},
+  {"name": "step/snow6", "weight": 20},
+  
+  { "name": "AmbientSounds5/animals/crow/crow2", "weight": 10, "volume": 0.25},
+  
+  { "name": "AmbientSounds5/animals/cicadas/cicadas-night", "weight": 10, "volume": 1.25},
+  
+  { "name": "AmbientSounds5/animals/wolf/wolf4", "weight": 10, "volume": 0.35},
+  
+  { "name": "AmbientSounds5/animals/cricket/cricket3", "weight": 10, "volume": 0.45},
+  
+  { "name": "AmbientSounds5/animals/cricket/cricket2", "weight": 10, "volume": 0.25}
+
+], "replace": false, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.deepslate.step": { "sounds": [
+     {"name": "block/deepslate/step1", "weight": 200},
+     {"name": "block/deepslate/step2", "weight": 200},
+     {"name": "block/deepslate/step3", "weight": 200},
+     {"name": "block/deepslate/step4", "weight": 200},
+     {"name": "block/deepslate/step5", "weight": 200},
+     {"name": "block/deepslate/step6", "weight": 200},
+
+     { "name": "AmbientSounds5/cave/cave1", "weight": 50, "stream": true, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+	  { "name": "AmbientSounds5/cave/cave2", "weight": 50, "stream": true, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+	  
+	   { "name": "AmbientSounds5/cave/cave3", "weight": 50, "stream": true, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+     { "name": "AmbientSounds5/cave/cave-deep1", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+     { "name": "AmbientSounds5/cave/cave-deep2", "weight": 150, "stream": false, "volume": 2, "pitch": 0.8, "attenuation_distance": 32 }
+	 
+
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.driptstone.step": { "sounds": [
+     {"name": "block/dripstone/step1", "weight": 200},
+     {"name": "block/dripstone/step2", "weight": 200},
+     {"name": "block/dripstone/step3", "weight": 200},
+     {"name": "block/dripstone/step4", "weight": 200},
+     {"name": "block/dripstone/step5", "weight": 200},
+     {"name": "block/dripstone/step6", "weight": 200},
+	 
+	 	{ "name": "AmbientSounds5/cave/cave-large1", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/cave/cave-large2", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+
+     { "name": "AmbientSounds5/cave/cave-water1", "weight": 50, "stream": true, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+	  { "name": "AmbientSounds5/cave/cave-water2", "weight": 50, "stream": true, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+	  
+	   { "name": "AmbientSounds5/cave/cave-water3", "weight": 50, "stream": true, "volume": 3, "pitch": 0.9, "attenuation_distance": 32 },
+	 
+     { "name": "AmbientSounds5/cave/cave-water4", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+     { "name": "AmbientSounds5/cave/cave-water5", "weight": 150, "stream": false, "volume": 2, "pitch": 0.8, "attenuation_distance": 32 }
+    
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+"block.stone.step": { "sounds": [
+     {"name": "step/stone1", "weight": 200},
+     {"name": "step/stone2", "weight": 200},
+     {"name": "step/stone3", "weight": 200},
+     {"name": "step/stone4", "weight": 200},
+     {"name": "step/stone5", "weight": 200},
+     {"name": "step/stone6", "weight": 200},
+	 
+	 { "name": "AmbientSounds5/cave/cave-large1", "weight": 10, "stream": true, "volume": 0.2, "pitch": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/cave/cave-large2", "weight": 150, "stream": true, "volume": 0.2, "pitch": 0.7, "attenuation_distance": 32 }
+], "replace": true, "subtitle": "subtitles.block.generic.footsteps" },
+
+
+"ambient.cave": { "sounds": [
+	{ "name": "AmbientSounds5/cave/cave-large1", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/cave/cave-large2", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/cave/underworld", "weight": 50, "stream": true, "volume": 2, "pitch": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/cave/cave-lush", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 }
+], "replace": "false" },
+
+"block.sculk.step": { "sounds": [
+
+    { "name": "AmbientSounds5/cave/cave-large1", "weight": 10, "stream": true, "volume": 2, "pitch": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/cave/cave-large2", "weight": 10, "stream": true, "volume": 2, "pitch": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/cave/deep-dark", "weight": 150, "stream": true, "volume": 2, "pitch": 0.7, "attenuation_distance": 32 }
+	
+
+], "replace": false, "subtitle": "subtitles.block.generic.footsteps" },
+
+"weather.rain": { "sounds": [
+    { "name": "ambient/weather/rain1", "weight": 150, "volume": 0.35},
+    { "name": "ambient/weather/rain2", "weight": 150, "volume": 0.35},
+    { "name": "ambient/weather/rain3", "weight": 150, "volume": 0.35},
+    { "name": "ambient/weather/rain4", "weight": 150, "volume": 0.35},
+    { "name": "ambient/weather/rain5", "weight": 150, "volume": 0.35},
+    { "name": "ambient/weather/rain6", "weight": 150, "volume": 0.35},
+    { "name": "ambient/weather/rain7", "weight": 150, "volume": 0.35},
+    { "name": "ambient/weather/rain8", "weight": 150, "volume": 0.35},
+	
+	{ "name": "AmbientSounds5/weather/rain", "weight": 10, "stream": true, "volume": 2, "pitch": 0.25, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/weather/rain2", "weight": 10, "stream": true, "volume": 2, "pitch": 1.25, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/wind/heavy-wind", "weight": 10, "stream": true, "volume": 2, "pitch": 1.25, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/wind/wind-in-leaves", "weight": 10, "stream": true, "volume": 2, "pitch": 0.55, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/weather/rain3", "weight": 10, "stream": true, "volume": 2, "pitch": 1.25, "attenuation_distance": 32 }
+  
+], "replace": true, "subtitle": "subtitles.weather.rain" },
+
+"entity.lightning_bolt.thunder": { "sounds": [
+
+	{ "name": "AmbientSounds5/weather/storm-away", "weight": 10, "stream": true, "volume": 2, "pitch": 1.25, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/weather/storm-close", "weight": 10, "stream": true, "volume": 2, "pitch": 1, "attenuation_distance": 32 },
+	
+	{ "name": "AmbientSounds5/wind/howling-wind", "weight": 10, "stream": true, "volume": 2, "pitch": 1.25, "attenuation_distance": 32 }
+  
+], "replace": false, "subtitle": "subtitles.entity.lightning_bolt.thunder" },
+
+"ambient.underwater.loop.additions": { "sounds": [
+     { "name": "AmbientSounds5/water/underwater", "weight": 30, "stream": true, "volume": 2, "pitch": 0.75, "attenuation_distance": 32 },
+
+	{ "name": "AmbientSounds5/water/underwater-deep", "weight": 60, "stream": true, "volume": 2, "pitch": 1.25, "attenuation_distance": 32 }
+], "replace": "false" }
+
+
+
+
+
+
+
+}
